@@ -1,4 +1,11 @@
 language: java
 jdk:
   - openjdk8
-script: ant compile jar run
+addons:
+  sonarcloud:
+    organization: "nikcody"
+    token:
+      secure: "1677ca6b2da3d0ccf0b812546fc4ef17826b758b"
+script:
+  - ant compile jar run
+  - sonar-scanner
