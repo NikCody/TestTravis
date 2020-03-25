@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: "nikcody"
     token:
-      secure: "1677ca6b2da3d0ccf0b812546fc4ef17826b758b"
+      secure: "p3Oqd0JqITbEbR8J/50EgkixyrZsQSImq8wXQAuD5im18os1ekndESgtoxtzsGK0hFFuI0XUj7gir6DkWtt74tjZE7Cogh2yN2katDoaK9xdXnBietF1LI84JD/FD6XJ6KjZ1U6Ww4Oj4JTcmF9jOXlduebQasSDQCXj7rI9Cj7GU4Nd4zUJT2WEdpdITnO3IjVp81GaVR+ea7yl15Hc/77kVLCmCA13Blui2D0luci55WYRadm3AF+9p9yVsUva7Jiz1PvcQGpvJHaSlCQJfqOgZBOQJ4wWATcT2ZplsbR3oZR9KhvZ9MUwPfeYcb/w6oi438n7GYL3zhX5ONhJ7O/IkDyfEY32kcuiqTWxA8+HlPc59WGqudNegSy0m/5Rg1XbL18AyrZ8cPnT4xU96gvhIpyYQXX5vAuVnspqyUggOWvRTJy8v2AWqoY3AlwKJyo9JNU4Yp0hTOAgUUH5Jb/66weHs/20XrhNrGFb09CZH9QxpwNjdT+yExl4VO9dHP04ik+zriYTNa34CDV2IRCEDZZFueLyFSC4UQVisfKCOWtLTeRGpIveoTLSgLwdkLVuXcSiyvSD6iTP8OANQCog5P86E9zTv7suERODDPVu4pnal9GX+yMitZO8fDMBSNoJ3iNSD8ofgr4zE1dkDPUkIN2fJzaBjM6eEUHyZlo="
 script:
   - ant compile jar run
   - sonar-scanner
